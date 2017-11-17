@@ -24,9 +24,9 @@ module.exports = survey => {
                     }/api/surveys/${survey.id}/yes">Yes</a>
                   </div>
                   <div>
-                    <a style="text-decoration: none;" href='"${
+                    <a style="text-decoration: none;" href="${
                       keys.redirectDomain
-                    }/api/surveys/${survey.id}/no"'>No</a>
+                    }/api/surveys/${survey.id}/no">No</a>
                   </div>
               </p>
             </td>
