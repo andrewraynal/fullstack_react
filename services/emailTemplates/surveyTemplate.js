@@ -18,16 +18,16 @@ module.exports = survey => {
           <tr style="width: 100%; height: auto;">
             <td style="width: 100%; border-top: 1px solid #fff; overflow: hidden;">
               <p>${survey.body}
-                  <div>
-                    <a style="text-decoration: none;" href="${
-                      keys.redirectDomain
-                    }/api/surveys/${survey.id}/yes">Yes</a>
-                  </div>
-                  <div>
-                    <a style="text-decoration: none;" href="${
-                      keys.redirectDomain
-                    }/api/surveys/${survey.id}/no">No</a>
-                  </div>
+                <div>
+                  <a style="text-decoration: none;" href="${
+                    keys.redirectDomain
+                  }/api/surveys/${survey.id}/yes">Yes</a>
+                </div>
+                <div>
+                  <a style="text-decoration: none;" href="${
+                    keys.redirectDomain
+                  }/api/surveys/${survey.id}/no">No</a>
+                </div>
               </p>
             </td>
           </tr>
