@@ -13,14 +13,14 @@ class SurveyList extends Component {
         <div className="card darken-1" key={survey._id}>
           <div className="card-content">
             <span className="card-title">{survey.title}</span>
-            <p>{survey.body}</p>
+            <p style={{ margin: '12px 12px 12px 0' }}>{survey.body}</p>
             <p className="right">
               Sent On: {new Date(survey.dateSent).toLocaleDateString()}
             </p>
           </div>
           <div className="card-action">
-            <a>Yes: {survey.yes}</a>
-            <a>No: {survey.no}</a>
+            <a className="link">Yes: {survey.yes}</a>
+            <a className="link">No: {survey.no}</a>
           </div>
         </div>
       );
